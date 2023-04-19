@@ -1,0 +1,155 @@
+body {
+  background: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh;  */
+}
+.content {
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.content-player {
+  background-image: url("./img/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 65%;
+  height: 70%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.header__tittle {
+  font-size: larger;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_container__card {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom: solid 2px rgb(140, 255, 0);
+  border-radius: 15px;
+  padding: 15px;
+  padding-top: 25px;
+}
+
+.main_container__img {
+  margin-top: -30px;
+}
+
+.main_container__card--title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.main_container__card img {
+  width: 50px;
+}
+
+.main_container__img img {
+  width: 80px;
+}
+
+.container_options {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.container_options_img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container_options__option img {
+  transition: transform 0.5s;
+  /* Animation */
+  width: 60px;
+}
+
+.container_options__option :hover {
+  transform: scale(1.5);
+}
+
+.instructions {
+  display: flex;
+  justify-content: center;
+  height: 35px;
+}
+
+button {
+  margin: 10px;
+  width: 150px;
+  background-color: transparent;
+  outline: none;
+  /* border: solid 1px transparent; */
+  border-radius: 10px;
+  color: white;
+  font-weight: 900;
+  transition: transform 0.5s;
+  height: 40px;
+}
+#Iniciar_juego {
+  margin: 10px;
+  width: 150px;
+  background-color: transparent;
+  outline: none;
+  /* border: solid 1px transparent; */
+  border-radius: 10px;
+  color: white;
+  font-weight: 900;
+  transition: transform 0.5s;
+  height: 40px;
+  border: 2px solid rgb(140, 255, 0);
+}
+button:hover {
+  transform: scale(1.2);
+}
+#Iniciar_juego:hover {
+  transform: scale(1.2);
+  color: rgb(140, 255, 0);
+}
+
+.container_options__button {
+  background-color: transparent;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+}
+
+#puntos_usuario {
+  margin-top: 2px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#puntos_cpu {
+  margin-top: 2px;
+  font-size: 25px;
+  font-weight: bolder;
+}

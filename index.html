@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIEDRA PAPEL O TIJERA </title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="content-player">
+            <header class="header">
+                <h1>JUEGO: PIEDRA-PAPEL-TIJERA</h1>
+            </header>
+            <main class="main_container">
+                <div class="main_container__card">
+                    <div class="main_container__card--title">
+                        <img id="usuario" src="./img/user_icon.png" alt="">
+                        <p>USUARIO</p>
+                        <p id="puntos_usuario">0</p>
+                    </div>
+
+                    <div class="main_container__img">
+                        <img src="./img/vs_icon.png" alt="">
+                    </div>
+
+                    <div class="main_container__card--title">
+                        <img id="cpu" src="./img/cpu.png" alt="">
+                        <p>BOOT </p>
+                        <p id="puntos_cpu">0</p>
+                    </div>
+                </div>
+                <div class="container_options">
+                    <div class="container_options_img">
+                        <div class="container_options__option">
+                            <button id="Piedra" class="container_options__button"></button>
+
+                        </div>
+
+                        <div class="container_options__option">
+                            <button id="Papel" class="container_options__button"></button>
+
+                        </div>
+
+                        <div class="container_options__option">
+                            <button id="Tijera" class="container_options__button"></button>
+
+                        </div>
+                    </div>
+                    <div class="instructions">
+                        <p>Elige una opción!</p>
+                    </div>
+                </div>
+
+                <div class="container_button">
+                    <button id="Iniciar_juego">Iniciar juego</button>
+                </div>
+            </main>
+
+
+            <script src="index.js"></script>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
